@@ -1,0 +1,78 @@
+/* StartScene FXML*/
+
+.root{
+	-fx-background-color: white;	
+}
+
+/* StartScene FXML*/
+#startButton{
+	-fx-text-fill: blue;
+	-fx-font-weight: bold;
+	-fx-font: arial;
+}
+#lcrLabel{
+	-fx-font-weight: bold;
+	-fx-font: arial;
+}
+#startLabel{
+	-fx-text-fill: blue;
+	-fx-font-weight: bold;
+}
+/* PlayerSetupScene FXML*/
+#letsPlayButton{
+	-fx-text-fill: blue;
+	-fx-font-weight: bold;
+	-fx-font: arial;
+}
+#player1Label, #player2Label, #player3Label, #radioPlayer4, #radioPlayer5, #radioPlayer6, #radioPlayer7, #radioPlayer8, #radioPlayer9, #radioPlayer10{
+	-fx-font: arial;
+	-fx-font-weight: bold;
+}
+#activateAdditionalPlayersLabel{
+	-fx-text-fill: blue;
+	-fx-font-weight: bold;
+}
+#playerNameLabel{
+		-fx-text-fill: yellow;
+		-fx-font-weight: bold;
+}
+#playerControlledLabel{
+		-fx-text-fill: red;
+		-fx-font-weight: bold;
+}
+#activThreeOrMorePlayersLabel{
+		-fx-font-weight: light;
+}
+/* GameScene FXML*/
+#currentPlayerLabel, rollsRemaining{
+	-fx-text-fill: blue;
+	-fx-font-weight: bold;
+}
+#rollsLabel, #rollsRemaining{
+	-fx-text-fill: red;
+	-fx-font-weight: bold;
+}
+#player1Label, #player2Label, #player3Label, #player4Label, #player5Label, #player6Label, #player7Label, #player8Label, #player9Label, #player10Label{
+		-fx-font-weight: bold;
+}
+#gameLog{
+	-fx-text-fill: blue;
+	-fx-font-weight: bold;
+}
+#playerListView{
+	-fx-text-fill: red;
+	-fx-font-weight: bold;
+}
+#playersAndChipsLabel{
+	-fx-text-fill: blue;
+	-fx-font-weight: bold;
+}
+/* WinnerScene FXML*/
+#winnerLabel, #congratsLabel{
+	-fx-text-fill: red;
+	-fx-font-weight: bold;
+}
+#newGameButton, #closeGameButton{
+	-fx-text-fill: blue;
+	-fx-font-weight: bold;
+}
